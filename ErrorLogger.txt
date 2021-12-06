@@ -1,0 +1,45 @@
+Error: Could Not Add Domain
+    at D:\All-coding\LOGIQUAD\Leadific-poc\src\services\domainService.js:10:23
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error: Could Not Add Domain
+    at D:\All-coding\LOGIQUAD\Leadific-poc\src\services\domainService.js:10:23
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error: Could Not Add Domain
+    at D:\All-coding\LOGIQUAD\Leadific-poc\src\services\domainService.js:10:23
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error: Could Not Add Domain
+    at D:\All-coding\LOGIQUAD\Leadific-poc\src\services\domainService.js:11:23
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+ValidationError: Domains validation failed: _id: Cast to ObjectId failed for value "0" (type number) at path "_id"
+    at model.Document.invalidate (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\mongoose\lib\document.js:2910:32)
+    at model.$set (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\mongoose\lib\document.js:1447:12)
+    at model.$set (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\mongoose\lib\document.js:1149:16)
+    at model.Document (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\mongoose\lib\document.js:158:12)
+    at model.Model (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\mongoose\lib\model.js:106:12)
+    at new model (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\mongoose\lib\model.js:4765:15)
+    at D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\mongoose\lib\model.js:3114:22
+    at D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\mongoose\lib\model.js:3150:7
+    at Array.forEach (<anonymous>)
+    at D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\mongoose\lib\model.js:3149:15
+ReferenceError: page is not defined
+    at D:\All-coding\LOGIQUAD\Leadific-poc\src\routes\domainRouter.js:20:37
+    at Layer.handle [as handle_request] (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\express\lib\router\layer.js:95:5)
+    at D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\express\lib\router\index.js:281:22
+    at param (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\express\lib\router\index.js:275:10)
+ReferenceError: page is not defined
+    at D:\All-coding\LOGIQUAD\Leadific-poc\src\routes\domainRouter.js:20:37
+    at Layer.handle [as handle_request] (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\express\lib\router\layer.js:95:5)
+    at D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\express\lib\router\index.js:281:22
+    at param (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\All-coding\LOGIQUAD\Leadific-poc\node_modules\express\lib\router\index.js:275:10)
